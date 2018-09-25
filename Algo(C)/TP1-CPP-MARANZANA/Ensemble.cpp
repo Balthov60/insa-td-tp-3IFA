@@ -129,6 +129,90 @@ unsigned int Ensemble::Ajuster(int delta)
     return maxSize;
 }
 
+bool Ensemble::Retirer(int element)
+{
+    return Retirer(element, true);
+}
+
+bool Ensemble::Retirer(int element, bool changeMaxSize)
+{
+    if (!exist(element))
+    {
+        if (changeMaxSize)
+            Ajuster(-maxSize);
+
+        return false;
+    }
+
+    unsigned int i = 0;                              // Find Index of element
+    while (array[i] != element)
+        i++;
+
+    for (; i < currentSize - 1; i++)       // Move elements to remove gap in tab
+        array[i] = array[i + 1];
+
+    currentSize--;                          // Update Size & Reallocate if asked (changeMaxSize)
+
+    if (changeMaxSize)
+        Ajuster(-maxSize);
+
+    return true;
+}
+
+unsigned int Ensemble::Retirer(const Ensemble & unEnsemble)
+{
+    unsigned int removedQty = 0;
+
+    for (unsigned int i = 0; i < unEnsemble.currentSize; i++)
+    {
+        if (Retirer(unEnsemble.array[i], false))
+        {
+            removedQty++;
+            i--;
+        }
+    }
+
+    return removedQty;
+}
+
+int Ensemble::Reunir(const Ensemble &unEnsemble)
+{
+    if (unEnsemble.EstInclus(*this) != NON_INCLUSION)
+        return 0;
+
+    unsigned int oldMaxSize = maxSize;
+    unsigned int oldCurrentSize = currentSize;
+
+    for (unsigned int i = 0; i < unEnsemble.currentSize; i++)
+    {
+        if (Ajouter(unEnsemble.array[i]) == PLEIN)
+        {
+            Ajuster(1);
+            Ajouter(unEnsemble.array[i]);
+        }
+    }
+
+    return (oldMaxSize == maxSize) ? currentSize - oldCurrentSize : -(currentSize - oldCurrentSize);
+}
+
+unsigned int Ensemble::Intersection(const Ensemble & unEnsemble)
+{
+    unsigned int removedQty = 0;
+
+    for (unsigned int i = 0; i < currentSize; i++)
+    {
+        if (!unEnsemble.exist(this->array[i]))
+        {
+            Retirer(this->array[i]);
+            removedQty++;
+            i--;
+        }
+    }
+
+    Ajuster(-maxSize);
+    return removedQty;
+}
+
 /*********************************/
 /** Constructeurs - destructeur **/
 /*********************************/
@@ -215,7 +299,7 @@ void Ensemble::swap(int firstIndex, int secondIndex)
     array[secondIndex] = temp;
 }
 
-bool Ensemble::exist(int value)
+bool Ensemble::exist(int value) const
 {
     for (unsigned int i = 0; i < currentSize; i++)
     {

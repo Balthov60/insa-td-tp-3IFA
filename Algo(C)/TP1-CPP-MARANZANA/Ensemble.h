@@ -89,6 +89,46 @@ public:
      */
     unsigned int Ajuster(int delta);
 
+    /**
+     * Supprimer element de l'ensemble si il existe.
+     * Redimenssionne le tableau et change la cardinalité max.
+     *
+     * @param element
+     * @param changeMaxSize boolean : true si la taille doit changer.
+     * @return True si il a été retiré False sinon.
+     */
+    bool Retirer(int element, bool changeMaxSize /* = true */);
+
+    bool Retirer(int element); //TODO: ASK Maranzana submission
+
+    /**
+     * Supprime les elements de unEnsemble si ils existent.
+     *
+     * @param unEnsemble
+     * @return le nombre d'element retiré.
+     */
+    unsigned int Retirer(const Ensemble & unEnsemble);
+
+    /**
+     * Ajoute unEnsemble à l'ensemble appelant.
+     *
+     * @param unEnsemble
+     * @return 0 si unEnsemble est contenu dans this
+     *         n si pas de réajustement
+     *         -n si ensemble réajusté
+     *         avec "n" le nombre d'element ajouté.
+     */
+    int Reunir(const Ensemble & unEnsemble);
+
+    /**
+     * Conserve dans l'ensemble appellant tout les element également present dans unEnsemble.
+     * L'ensemble est réajusté dans tous les cas.
+     *
+     * @param unEnsemble
+     * @return le nombre d'elements supprimé.
+     */
+    unsigned int Intersection(const Ensemble & unEnsemble);
+
 /*********************************/
 /** Constructeurs - destructeur **/
 /*********************************/
@@ -144,7 +184,7 @@ private:
      * @param value
      * @return true if exist false elsewhere
      */
-    bool exist(int value);
+    bool exist(int value) const;
 
 /*********************************/
 /****** Private - Attributes *****/

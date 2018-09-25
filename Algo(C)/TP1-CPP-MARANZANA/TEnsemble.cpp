@@ -6,18 +6,14 @@ using namespace std;
 
 int main() {
 
-    int t[] = {2, 6, 4, 4, 4, 4, 6, 9};
-    Ensemble ensemble1 = Ensemble(t, 8);
+    int t[] = {2, 4, 4, 4, 6, 9};
+    Ensemble ensemble1 = Ensemble(t, 6);
 
-    ensemble1.Afficher();
-    cout << "TEST  +3 " << ensemble1.Ajuster(3) << "\r\n";
-    ensemble1.Afficher();
-    cout << "TEST  -5 " << ensemble1.Ajuster(-5) << "\r\n";
-    ensemble1.Afficher();
-    cout << "TEST   0 " << ensemble1.Ajuster(0) << "\r\n";
-    ensemble1.Afficher();
-    cout << "TEST -10 " << ensemble1.Ajuster(-10) << "\r\n";
+    int t2[] = {20, 60};
+    Ensemble ensemble2 = Ensemble(t2, 2);
 
+    ensemble1.Retirer(1);
+    cout << "QTY : "<< ensemble1.Intersection(ensemble2) << endl;
     ensemble1.Afficher();
 
     return 0;
