@@ -1,9 +1,9 @@
 # insa-td-tp-3IFA
 Les principaux TD et TP 3IFA INSA
 
-## Algo(C)
+## C/C++
 
-* TD/TP POO Maranzana	(c++)
+* TD/TP POO Maranzana (POO c++)
 * TD/TP POO Guerin	(Structure)
 
 ## ProgSys

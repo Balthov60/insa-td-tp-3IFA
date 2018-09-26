@@ -12,12 +12,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3080ca80-aa08-4e9d-85e8-9b37530f08d0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Ensemble.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Ensemble.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ensemble.h" beforeDir="false" afterPath="$PROJECT_DIR$/Ensemble.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEnsemble.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/TEnsemble.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProgSys/Main" beforeDir="false" afterPath="$PROJECT_DIR$/../../ProgSys/Main" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProgSys/Main.dSYM/Contents/Resources/DWARF/Main" beforeDir="false" afterPath="$PROJECT_DIR$/../../ProgSys/Main.dSYM/Contents/Resources/DWARF/Main" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProgSys/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/../../ProgSys/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,10 +26,11 @@
     <session id="2106216135">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="5" />
+          <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -70,49 +66,27 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+        <entry file="file:///Library/Developer/CommandLineTools/usr/include/c++/v1/iosfwd">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1335">
+              <caret line="89" selection-start-line="89" selection-end-line="89" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/TEnsemble.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+            <state relative-caret-position="225">
+              <caret line="15" column="65" selection-start-line="15" selection-start-column="65" selection-end-line="15" selection-end-column="65" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Ensemble.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="131" selection-start-line="131" selection-end-line="131" selection-end-column="35" />
-              <folding>
-                <element signature="e#897#1197#0" />
-                <element signature="e#1199#1493#0" />
-                <element signature="e#1495#2161#0" />
-                <element signature="e#2163#2412#0" />
-                <element signature="e#2414#3301#0" />
-                <element signature="e#3303#3347#0" />
-                <element signature="e#3880#4053#0" />
-                <element signature="e#4160#4618#0" />
-                <element signature="e#4687#4750#0" />
-                <element signature="e#4416#4741#0" />
-                <element signature="e#4744#4909#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Ensemble.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1515">
-              <caret line="101" column="63" selection-start-line="101" selection-start-column="63" selection-end-line="101" selection-end-column="63" />
             </state>
           </provider>
         </entry>
@@ -149,6 +123,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -156,26 +131,10 @@
               <item name="TP1_CPP_MARANZANA" type="b2602c69:ProjectViewProjectNode" />
               <item name="TP1-CPP-MARANZANA" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="TP1_CPP_MARANZANA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TP1-CPP-MARANZANA" type="462c0819:PsiDirectoryNode" />
-              <item name="cmake-build-debug" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TP1_CPP_MARANZANA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TP1-CPP-MARANZANA" type="462c0819:PsiDirectoryNode" />
-              <item name="cmake-build-debug" type="462c0819:PsiDirectoryNode" />
-              <item name="CMakeFiles" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TP1_CPP_MARANZANA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -229,17 +188,18 @@
       <updated>1537856353626</updated>
       <workItem from="1537856355934" duration="12768000" />
       <workItem from="1537884240030" duration="4737000" />
+      <workItem from="1537946174756" duration="11000" />
+      <workItem from="1537946192933" duration="2000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17505000" />
+    <option name="totallyTimeSpent" value="17521000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25274727" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27106228" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -315,9 +275,6 @@
     <entry file="file://$PROJECT_DIR$/cmake-build-debug/Makefile">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Ensemble.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
@@ -338,20 +295,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TEnsemble.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Ensemble.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1515">
           <caret line="101" column="63" selection-start-line="101" selection-start-column="63" selection-end-line="101" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Developer/CommandLineTools/usr/include/c++/v1/iosfwd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1335">
+          <caret line="89" selection-start-line="89" selection-end-line="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TEnsemble.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="65" selection-start-line="15" selection-start-column="65" selection-end-line="15" selection-end-column="65" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
