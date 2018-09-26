@@ -12,4 +12,6 @@ Les principaux TD et TP 3IFA INSA
 
 ## TPLinux
 
-**ignore it**
+* TP1 navigation, vi, droits, environnement, valgrind
+* Memo Vi
+* Memo Shell
