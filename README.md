@@ -8,7 +8,7 @@ Les principaux TD et TP 3IFA INSA
 
 ## ProgSys
 
-**ignore it**
+* Chapitre 1 : Compilation, structures de contrôle, opérations sur les types, opérations bits-à-bits
 
 ## TPLinux
 
