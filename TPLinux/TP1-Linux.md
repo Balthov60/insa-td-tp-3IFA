@@ -4,7 +4,7 @@
 
 ### 1. Commandes de base - Gestionnaire de fichiers
 
-​	*Pas de question a traiter dans cette partie.*
+*Pas de question a traiter dans cette partie.*
 
 
 
@@ -12,15 +12,15 @@
 
 #### 	2.1 Liste des éditeurs de texte
 
-​	*Pas de question a traiter dans cette partie*
+*Pas de question a traiter dans cette partie*
 
 
 
 ####    	2.2 Apprentissage de vi
 
-​	**1. ** Correction du fichier Descartes.err
+**1.** Correction du fichier Descartes.err
 
-​	**2. ** Jeuvi -> Obtention du rang “merveilleux” avec un score de 21/27
+**2.** Jeuvi -> Obtention du rang “merveilleux” avec un score de 21/27
 
 
 
@@ -28,18 +28,18 @@
 
 ####   	3.1 Montage
 
-​	**1. **
+**1.**
   	
 
-  	**2. **Liste des montages disponnibles: "cat /etc/mtab". Les montages disponnibles sont consignés au sein du fichier "mtab" dans le repertoire "/etc". La liste des montages actuelement montés est disponnible avec la commande "cat /etc/fstab".
+**2.** Liste des montages disponnibles: "cat /etc/mtab". Les montages disponnibles sont consignés au sein du fichier "mtab" dans le repertoire "/etc". La liste des montages actuelement montés est disponnible avec la commande "cat /etc/fstab".
 
-​	 **3.** En regardant le manuel de la commande "mount", on observe que les types de montage les plus courant sont : ext2, ext3, ext4, xfs, btrfs, vfat, sysfs, proc, nfs et cifs.
+**3.** En regardant le manuel de la commande "mount", on observe que les types de montage les plus courant sont : ext2, ext3, ext4, xfs, btrfs, vfat, sysfs, proc, nfs et cifs.
 
 
 
 #### 	3.2 Droits d’accès
 
-​	**1. ** Pour verifier les droits d'acces en lecture d'un repertoire, j'ai tester le senario suivant:
+**1.** Pour verifier les droits d'acces en lecture d'un repertoire, j'ai tester le senario suivant:
 
 * Creation d'un dossier "test" avec un fichier a l'interieur "test/file"
 * Attribution de tout les droits pour tester le comportement normal du dossier.
@@ -76,7 +76,7 @@ $ vi file
 
 On ne peut pas afficher le contenu du dossier test sans le droit de lecture, on perd le droit de lecture du repertoire. Mais on peut toujours acceder a son sous-contenu à condition de se souvenir des noms des sous fichiers. On peut aussi toujours 'cd' a travers (car on possede toujours le droit d'execution).
 
-**2. ** Pour verifier les droits d'acces en ecriture d'un repertoire, j'ai tester le senario suivant:
+**2.** Pour verifier les droits d'acces en ecriture d'un repertoire, j'ai tester le senario suivant:
 
 * Creation d'un dossier "test" avec un fichier a l'interieur "test/file"
 *  Attribution de tout les droits pour tester le comportement normal du dossier.
@@ -121,7 +121,7 @@ Les commandes qui on attrait a la modification du contenu du dossier ne fonction
 
 
 
-**3. ** Pour verifier les droits en execution d'un repertoire, j'ai tester le senario suivant:
+**3.** Pour verifier les droits en execution d'un repertoire, j'ai tester le senario suivant:
 
 * Creation d'un dossier "test" avec un fichier a l'interieur "test/file"
 * Attribution de tout les droits pour tester le comportement normal du dossier.
@@ -168,19 +168,19 @@ cat: test/file: Permission non accordée
 
 Les commandes qui necessitent l'execution ne fonctionne plus.
 
-**5. **Dans un repertoire avec sticky bit:
+**5.** Dans un repertoire avec sticky bit:
 
 - J'ai tout les droits sur mes créations
 - Un autre utilisateur possede uniquement un droit de lecture
 
-**6. ** Pour possisionner un sticky bit:
+**6.**  Pour possisionner un sticky bit:
 
 - `chmod +t <repertoire>`
 - `chmod 1700 <repertoire>`
 
-**7. ** La différence entre T et t: La capitale est présente si le droit d'exécution x caché n'est pas présent.
+**7.** La différence entre T et t: La capitale est présente si le droit d'exécution x caché n'est pas présent.
 
-**8. ** La différence entre S et s: La capitale est présente si le droit d'exécution x caché n'est pas présent.
+**8.** La différence entre S et s: La capitale est présente si le droit d'exécution x caché n'est pas présent.
 
 - SETUID se place sur le flag d'execution de l'utilisateur propriétaire.
 - SETGID se place sur le flag d'execution du groupe propriétaire.
@@ -188,16 +188,16 @@ Les commandes qui necessitent l'execution ne fonctionne plus.
 **9.** Pour le SUID: `chmod 4000 file`
 Pour le SGID: `chmod 2000 file`
 
-**10.**  Pour le SUID: `chmod u+s file`
+**10.** Pour le SUID: `chmod u+s file`
 Pour le SGID: `chmod g+s file`
 
 
 
 #### 3.4 Envirronement de travail
 
-**1. ** `set | more` pour afficher toutes les variables d’environement.
+**1.** `set | more` pour afficher toutes les variables d’environement.
 
-**2. ** `SHLVL` correspond au nombre maximum de shell qui peuvent être imbriquer l’un d’un l’autre. On peut tester un lançant la commande `bash` pour lancer un autre shell et en réafichant la variable `SHLVL`. 
+**2.** `SHLVL` correspond au nombre maximum de shell qui peuvent être imbriquer l’un d’un l’autre. On peut tester un lançant la commande `bash` pour lancer un autre shell et en réafichant la variable `SHLVL`. 
 
 **3.** Pour obtenir les informations de connexion: `id` ou `id | tr , “\n` pour un affichage en liste.
 
