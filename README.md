@@ -5,6 +5,7 @@ Les principaux TD et TP 3IFA INSA
 
 * TD/TP POO Maranzana (POO c++)
 * TD/TP POO Guerin	(Structure)
+* TD/TP Alg Scuturici (Prog Dynamique)
 
 ## ProgSys
 
