@@ -10,6 +10,7 @@ Les principaux TD et TP 3IFA INSA
 ## ProgSys
 
 * Chapitre 1 : Compilation, structures de contrôle, opérations sur les types, opérations bits-à-bits
+    * q26 - 30 : Opération Bit à Bit
 
 ## TPLinux
 
