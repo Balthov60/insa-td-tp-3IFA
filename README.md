@@ -11,6 +11,10 @@ Les principaux TD et TP 3IFA INSA
 
 * Chapitre 1 : Compilation, structures de contrôle, opérations sur les types, opérations bits-à-bits
     * q26 - 30 : Opération Bit à Bit
+* Chapitre 2 : Pointeurs, Tableaux, Allocation Statique, fonction main paramètrée
+    * q18 - 19 : Arithmétique de pointeur
+    * q24 - 31 : Bataille
+    * q32 - 38 : Affichage
 
 ## TPLinux
 
