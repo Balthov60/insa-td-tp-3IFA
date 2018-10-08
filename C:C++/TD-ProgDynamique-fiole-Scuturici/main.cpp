@@ -107,7 +107,7 @@ int main()
             finalSet2[finalSet2Size] = i;
             finalSet2Size++;
         }
-        else
+        else 
             solveur2[i][0] = 0;
     }
 

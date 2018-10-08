@@ -158,7 +158,7 @@ void Stats(HashTable * table)
 /** MAIN **/
 /**********/
 
-int main(void)
+int main()
 {
     int size;
     char lecture[100];
