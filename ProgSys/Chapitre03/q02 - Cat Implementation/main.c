@@ -1,29 +1,37 @@
 #include <stdio.h>
-#include <stdint.h>
-#include <stdbool.h>
+#include <errno.h>
 
-/*
-	Enlever le flag "-pedantic"
-	pour que ça marche.
-*/
+int main(int argc, char const *argv[])
+{
+    if (argc < 2)
+    {
+        printf("vous devez passer un fichier en paramètre\n");
+        return 0;
+    }
+    
+    printf("File : %s\r\n\r\n", argv[1]);
+    FILE * file = fopen(argv[1], "r");
 
-// La variable globale est stocké dans le BSS segment
-// La variable locale est stocké dans la pile
-
-int intNotInitialized;
-
-int main(int argc, char const *argv[]){
-	
-	int intInitialized = 0;
-
-	intNotInitialized = 42;
-	intInitialized = 5;
-
-	printf("main:         \t%p\n", (void*) &main);
-	printf("globale: %d \t%p\n", intNotInitialized, (void*) &intNotInitialized);
-	printf("locale:  %d \t%p\n", intInitialized, (void*) &intInitialized);
+    if (file == NULL)
+    {
+        printf("Impossible de lire le fichier... %d\n", errno);
+        return 0;
+    }
+    
+    int c;
+    for (;;)
+    {
+        c = fgetc(file);
+        
+        if (c == EOF)
+        {
+            fclose(file);
+            return 0;
+        }
+        
+        printf("%c", (char)c);
+    }
 
 	return 0;
-
 }
 
