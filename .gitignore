@@ -6,6 +6,12 @@
 _WIP/
 _EXTERNAL/
 
+# Ignore build objects
+
+*.o
+main
+
+
 # User-specific stuff
 **/.idea/**/workspace.xml
 **/.idea/**/tasks.xml
