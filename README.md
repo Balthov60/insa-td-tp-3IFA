@@ -21,3 +21,15 @@ Les principaux TD et TP 3IFA INSA
 * TP1 navigation, vi, droits, environnement, valgrind
 * Memo Vi
 * Memo Shell
+
+## Operating System
+
+* TP1 : fork
+* TP3 : memory access 
+* TP4 : memory allocation
+* TP6 : semaphore
+
+## Architecture Ordinateurs
+
+* Circuit : Processeur logisim
+* TPMSP430 : Microprocesseur

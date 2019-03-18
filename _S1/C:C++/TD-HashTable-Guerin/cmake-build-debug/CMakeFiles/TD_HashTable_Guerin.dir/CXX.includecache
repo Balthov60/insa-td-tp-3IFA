@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/balthazarfrolin/Documents/INSA/Repositories/C:C++/TD-HashTable-Guerin/main.cpp
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+

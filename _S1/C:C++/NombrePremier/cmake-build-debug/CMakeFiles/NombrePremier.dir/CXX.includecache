@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/balthazarfrolin/Documents/INSA/Repositories/C:C++/NombrePremier/main.cpp
+iostream
+-
+math.h
+-
+

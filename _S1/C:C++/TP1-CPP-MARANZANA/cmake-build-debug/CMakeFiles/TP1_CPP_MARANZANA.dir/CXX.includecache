@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/balthazarfrolin/Documents/INSA/Repositories/Algo(C)/TP1-CPP-MARANZANA/Ensemble.cpp
+iostream
+-
+Ensemble.h
+/Users/balthazarfrolin/Documents/INSA/Repositories/Algo(C)/TP1-CPP-MARANZANA/Ensemble.h
+
+/Users/balthazarfrolin/Documents/INSA/Repositories/Algo(C)/TP1-CPP-MARANZANA/Ensemble.h
+
+/Users/balthazarfrolin/Documents/INSA/Repositories/Algo(C)/TP1-CPP-MARANZANA/TEnsemble.cpp
+iostream
+-
+Ensemble.h
+/Users/balthazarfrolin/Documents/INSA/Repositories/Algo(C)/TP1-CPP-MARANZANA/Ensemble.h
+

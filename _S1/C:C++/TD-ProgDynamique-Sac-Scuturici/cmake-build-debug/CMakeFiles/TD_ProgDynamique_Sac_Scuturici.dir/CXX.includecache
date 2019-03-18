@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/balthazarfrolin/Documents/INSA/Repositories/C:C++/TD-ProgDynamique-Sac-Scuturici/main.cpp
+iostream
+-
+stdio.h
+-
+iomanip
+-
+

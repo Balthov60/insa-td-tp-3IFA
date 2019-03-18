@@ -1,0 +1,3 @@
+#!/bin/bash
+
+msp430-gcc -mmcu=msp430fg4618 -mdisable-watchdog -o $1 $2 

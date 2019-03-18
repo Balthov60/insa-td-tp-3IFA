@@ -1,0 +1,40 @@
+Detecting C [-std=c11] compiler features failed to compile with the following output:
+Change Dir: /Users/balthazarfrolin/Documents/INSA/Repositories/C:C++/TD-ProgDynamique-fiole-Scuturici/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_48135/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_48135.dir/build.make CMakeFiles/cmTC_48135.dir/build
+CMakeFiles/cmTC_48135.dir/build.make:64: *** target pattern contains no `%'.  Stop.
+make: *** [cmTC_48135/fast] Error 2
+
+
+
+Detecting CXX [-std=c++1z] compiler features failed to compile with the following output:
+Change Dir: /Users/balthazarfrolin/Documents/INSA/Repositories/C:C++/TD-ProgDynamique-fiole-Scuturici/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_bad46/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_bad46.dir/build.make CMakeFiles/cmTC_bad46.dir/build
+CMakeFiles/cmTC_bad46.dir/build.make:64: *** target pattern contains no `%'.  Stop.
+make: *** [cmTC_bad46/fast] Error 2
+
+
+
+Detecting C [-std=c11] compiler features failed to compile with the following output:
+Change Dir: /Users/balthazarfrolin/Documents/INSA/Repositories/C:C++/TD-ProgDynamique-fiole-Scuturici/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_129df/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_129df.dir/build.make CMakeFiles/cmTC_129df.dir/build
+CMakeFiles/cmTC_129df.dir/build.make:64: *** target pattern contains no `%'.  Stop.
+make: *** [cmTC_129df/fast] Error 2
+
+
+
+Detecting CXX [-std=c++1z] compiler features failed to compile with the following output:
+Change Dir: /Users/balthazarfrolin/Documents/INSA/Repositories/C:C++/TD-ProgDynamique-fiole-Scuturici/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_affab/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_affab.dir/build.make CMakeFiles/cmTC_affab.dir/build
+CMakeFiles/cmTC_affab.dir/build.make:64: *** target pattern contains no `%'.  Stop.
+make: *** [cmTC_affab/fast] Error 2
+
+
+

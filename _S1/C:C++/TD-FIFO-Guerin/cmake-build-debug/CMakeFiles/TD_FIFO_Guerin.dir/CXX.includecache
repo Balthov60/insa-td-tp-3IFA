@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/balthazarfrolin/Documents/INSA/Repositories/Algo(C)/TD_FIFO_Guerin/main.cpp
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+

@@ -1,0 +1,20 @@
+Detecting C [-std=c11] compiler features failed to compile with the following output:
+Change Dir: /Users/balthazarfrolin/Documents/INSA/Repositories/C:C++/TD-ProgDynamique-Sac-Scuturici/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f0835/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_f0835.dir/build.make CMakeFiles/cmTC_f0835.dir/build
+CMakeFiles/cmTC_f0835.dir/build.make:64: *** target pattern contains no `%'.  Stop.
+make: *** [cmTC_f0835/fast] Error 2
+
+
+
+Detecting CXX [-std=c++1z] compiler features failed to compile with the following output:
+Change Dir: /Users/balthazarfrolin/Documents/INSA/Repositories/C:C++/TD-ProgDynamique-Sac-Scuturici/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c33d9/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_c33d9.dir/build.make CMakeFiles/cmTC_c33d9.dir/build
+CMakeFiles/cmTC_c33d9.dir/build.make:64: *** target pattern contains no `%'.  Stop.
+make: *** [cmTC_c33d9/fast] Error 2
+
+
+
